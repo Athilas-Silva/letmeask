@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+## Letmeask
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Firebase](https://img.shields.io/twitter/url?color=%23FFCA28&label=Firebase&logo=Firebase&logoColor=%23FFCA28&style=flat-square&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fcolor%3D%25231572B6%26label%3DCSS3%26logo%3DCSS3%26logoColor%3D%25231572B6%26style%3Dflat-square%26url%3Dhttps%253A%252)   ![Yarn](https://img.shields.io/twitter/url?color=%232C8EBB&label=Yarn&logo=Yarn&logoColor=%232C8EBB&style=flat-square&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fcolor%3D%25231572B6%26label%3DCSS3%26logo%3DCSS3%26logoColor%3D%25231572B6%26style%3Dflat-square%26url%3Dhttps%253A%252)   ![TypeJs](https://img.shields.io/twitter/url?color=%233178C6&label=TypeScript&logo=TypeScript&logoColor=%233178C6&style=flat-square&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fcolor%3D%25231572B6%26label%3DCSS3%26logo%3DCSS3%26logoColor%3D%25231572B6%26style%3Dflat-square%26url%3Dhttps%253A%252)   ![React](https://img.shields.io/twitter/url?color=%2361DAFB&label=React&logo=React&logoColor=%2361DAFB&style=flat-square&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fcolor%3D%25231572B6%26label%3DCSS3%26logo%3DCSS3%26logoColor%3D%25231572B6%26style%3Dflat-square%26url%3Dhttps%253A%252)
 
-## Available Scripts
+Aplicação desenvolvida na trilha de React no evento da NLW Together, com orientação do [Diego Fernandes](https://github.com/diego3g). Usando os serviços de banco de dados do [Firebase](https://firebase.google.com/)
 
-In the project directory, you can run:
+Esta aplicação consiste em ser uma página web onde os usuários podem criar salas e enviar perguntas para os donos da sala sobre o tema proposto pelo dono da sala. Sendo admin da sala vc tem total controle sobre ela, podendo excluir perguntas, dar um destaque a pergunta e responder. 
 
-### `yarn start`
+## Dependências instaladas na aplicação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `` yarn add node-sass@^5.0.0 ``
+- `` yarn add react-router-dom ``
+- `` yarn add @types/react-router-dom -D ``
+- ``yarn add classnames ``
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##
 
-### `yarn test`
+### Imagens do projeto em tela
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tela de Login:
 
-### `yarn build`
+![login](https://user-images.githubusercontent.com/71888055/123877678-061bf180-d914-11eb-8937-e051a72f9a52.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tela com o usuario logado, mandando uma pergunta:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![usuario](https://user-images.githubusercontent.com/71888055/123877982-9e19db00-d914-11eb-953f-b849320a579d.PNG)
 
-### `yarn eject`
+##
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Tela de admin, responsavel pela sala, podendo excluir, responder e dar destaque para a pergunta, no caso da imagem, a pergunta ja foi considerada respondida e agora só pode ser excluida:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![admin](https://user-images.githubusercontent.com/71888055/123877859-627f1100-d914-11eb-8308-9049119b7712.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##
 
-## Learn More
+⚠️ Ao clonar ou baixar este repositório ⚠️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Abra o CMD e coloque o seguinte comando para instalar as dependências da aplicação:
+- `` yarn ``
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Após rodar o comando acima, rode o seguinte comando para iniciar a aplicação:
+- `` yarn start``
